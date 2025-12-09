@@ -1,0 +1,9 @@
+{
+	"name": "selvaDFdev",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5367ed1f-8e48-4ac1-9679-034ba6239f15",
+		"tenantId": "2a6e6092-73e4-4752-b1a5-477a17f5056d"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "selvals",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVaultls",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "selvakeyaccess"
+			}
+		}
+	}
+}
